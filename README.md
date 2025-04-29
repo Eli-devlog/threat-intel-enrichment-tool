@@ -1,4 +1,4 @@
-# Passive Enrichment Script v1.0
+Passive Enrichment Script 
 
 **Author:** Eli Cheng  
 **Built with:** Python 3, `requests`, `socket`, `csv`, `json`  
@@ -6,7 +6,7 @@
 
 ---
 
-## Purpose
+Purpose
 
 This script performs **passive enrichment** on a list of domains or IP addresses by:
 - Resolving domains to IPs
@@ -15,17 +15,17 @@ This script performs **passive enrichment** on a list of domains or IP addresses
 
 ---
 
-## How to Use
+How to Use
 
-### 1. Install dependencies
+1. Install dependencies
 
 ```bash
 pip install requests
 
-### 2. Run the script
+2. Run the script
 python enrich_targets.py
 
-### 3. Output
+3. Output
 
 enrichment_results.json — structured JSON output
 enrichment_results.csv — tabular CSV for Excel or SIEM
@@ -38,7 +38,7 @@ Example Output
     country: US
     org: AS15169 Google LLC
 
-## Notes 
+Notes 
 
 IPs work directly.
 Domains are first resolved to IPs.

@@ -19,7 +19,7 @@ How to Use
 
 1. Install dependencies
 
-```bash
+bash
 pip install requests
 
 2. Run the script
